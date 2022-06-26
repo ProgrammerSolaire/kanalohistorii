@@ -7,7 +7,7 @@ body {
     font-size: medium;
     color: white;
     margin: 0;
-    background-image: url('/assets/img/Tlo.png');
+    background-image: url('assets/img/Tlo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 2000px;
@@ -21,12 +21,12 @@ body::-webkit-scrollbar-thumb {
     background-color: #fddd26;
 }
 body::-webkit-scrollbar-button:single-button:start {
-    background-image: url('/assets/img/Arrow-up.svg');
+    background-image: url('assets/img/Arrow-up.svg');
     background-color: #fddd26;
     background-position: center;
 }
 body::-webkit-scrollbar-button:single-button:end {
-    background-image: url('/assets/img/Arrow-down.svg');
+    background-image: url('assets/img/Arrow-down.svg');
     background-color: #fddd26;
     background-position: center;
 }
