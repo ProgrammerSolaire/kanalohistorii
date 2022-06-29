@@ -7,11 +7,7 @@ body {
     font-size: medium;
     color: white;
     margin: 0;
-    background-image: url('img/Tlo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 2000px;
-    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #382102, black);
 }
 body::-webkit-scrollbar {
     width: 10px;
