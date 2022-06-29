@@ -8,23 +8,7 @@ body {
     color: white;
     margin: 0;
     background-image: linear-gradient(to bottom, #382102, black);
-}
-body::-webkit-scrollbar {
-    width: 10px;
-    background-color: #382102;
-}
-body::-webkit-scrollbar-thumb {
-    background-color: #fddd26;
-}
-body::-webkit-scrollbar-button:single-button:start {
-    background-image: url('img/Arrow-up.svg');
-    background-color: #fddd26;
-    background-position: center;
-}
-body::-webkit-scrollbar-button:single-button:end {
-    background-image: url('img/Arrow-down.svg');
-    background-color: #fddd26;
-    background-position: center;
+    background-repeat: no-repeat
 }
 #Menu {
     position: fixed;
