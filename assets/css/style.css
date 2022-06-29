@@ -8,8 +8,6 @@ body {
     color: white;
     margin: 0;
     background-image: linear-gradient(to bottom, #382102, black);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 #Menu {
