@@ -7,11 +7,10 @@ body {
     font-size: medium;
     color: white;
     margin: 0;
-    background-color: #221401;
+    background-color: #221401 !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 2000px;
-    background-attachment: fixed;
 }
 body::-webkit-scrollbar {
     width: 10px;
