@@ -229,12 +229,12 @@ a.element_4:active {
 }
 @media only screen and (max-width: 768px) {
     #Start {
-        margin-left: 15%;
+        margin-left: 10%;
     }
 }
 @media only screen and (max-width: 600px) {
     #Start {
-        margin-left: 15%;
+        margin-left: 10%;
     }
 }
 @media only screen and (min-width:800px) {
@@ -341,14 +341,14 @@ h3{
 }
 @media only screen and (max-width: 768px) {
     #Opis_strony {
-        margin-left: 90px;
+        margin-left: 70px;
         margin-right: 70px;
         text-align: justify;
     }
 }
 @media only screen and (max-width: 600px) {
     #Opis_strony {
-        margin-left: 70px;
+        margin-left: 50px;
         margin-right: 50px;
         text-align: justify;
     }
@@ -372,14 +372,14 @@ h4 {
 }
 @media only screen and (max-width: 768px) {
     #Artykul_1 {
-        margin-left: 90px;
+        margin-left: 70px;
         margin-right: 70px;
         text-align: justify;
     }
 }
 @media only screen and (max-width: 600px) {
     #Artykul_1 {
-        margin-left: 70px;
+        margin-left: 50px;
         margin-right: 50px;
         text-align: justify;
     }
