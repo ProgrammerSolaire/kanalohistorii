@@ -22,7 +22,7 @@ body {
     opacity: 90%;
     width: 10%;
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     #Menu {
         position: fixed;
         top: 0;
@@ -34,7 +34,7 @@ body {
         width: 80px;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
     #Menu {
         position: fixed;
         top: 0;
@@ -50,7 +50,7 @@ body {
     display: none;
     list-style-type: none;
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     .mobile_nav {
         display: inline-block;
         position: fixed;
@@ -58,7 +58,7 @@ body {
         left: 1px;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
     .mobile_nav {
         display: inline-block;
         position: fixed;
@@ -90,12 +90,12 @@ a.mobile_element_4 {
     list-style-type: none;
     padding: 0%;
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     .nav {
         display: none;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
     .nav{
         display: none;
     }
@@ -204,7 +204,7 @@ a.element_4:active {
 #Backbutton:hover {
     cursor: pointer;
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     #Backbutton {
         position:fixed;
         right: 20px;
@@ -212,7 +212,7 @@ a.element_4:active {
         z-index: 1;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
     #Backbutton {
         position:fixed;
         right: 10px;
@@ -227,12 +227,12 @@ a.element_4:active {
     padding-bottom: 5px;
     width: 80%;
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     #Start {
         margin-left: 80px;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
     #Start {
         margin-left: 60px;
     }
@@ -251,14 +251,14 @@ p[class*=Cytat] {
 h1 {
     font-size: 400%;
 }
-@media only screen and (min-width: 2048px) {
+@media only screen and (max-height: 2732px) and (min-width: 2048px) {
     h1 {
         font-size: 280%;
         white-space: nowrap;
         margin-left: 0px;
     }
 }
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-height: 2248px) and (min-width: 1080px) {
     h1 {
         font-size: 200%;
         white-space: nowrap;
@@ -339,14 +339,14 @@ h3{
     color: #fddd26;
     font-size: 30px;
 }
-@media only screen and (min-width: 2048px) {
+@media only screen and (max-height: 2732px) and (min-width: 2048px) {
     #Opis_strony {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-height: 2248px) and (min-width: 1080px) {
     #Opis_strony {
         margin-left: 60px;
         margin-right: 50px;
@@ -370,14 +370,14 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
 }
-@media only screen and (min-width: 2048px) {
+@media only screen and (max-height: 2732px) and (min-width: 2048px) {
     #Artykul_1 {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-height: 2248px) and (min-width: 1080px) {
     #Artykul_1 {
         margin-left: 60px;
         margin-right: 50px;
@@ -428,13 +428,13 @@ h6 {
     float: left;
     padding: 10px;
 }
-@media only screen and (min-width: 2048px) {
+@media only screen and (max-height: 2732px) and (min-width: 2048px) {
     .Responsive {
         width: 100%;
         font-size: 70%;
     }
 }
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-height: 2248px) and (min-width: 1080px) {
     .Responsive {
         width: 100%;
         font-size: 60%;
