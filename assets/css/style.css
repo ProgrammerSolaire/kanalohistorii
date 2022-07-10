@@ -215,7 +215,7 @@ a.element_4:active {
 @media only screen and (max-width: 800px) {
     #Backbutton {
         position:fixed;
-        right: 30px;
+        right: 25px;
         bottom: 20px;
         z-index: 1;
     }
@@ -239,12 +239,12 @@ a.element_4:active {
 }
 @media only screen and (max-width: 900px) {
     p[class*=Cytat] {
-    margin-right: 140px;
+    margin-right: 160px;
     }
 }
 @media only screen and (max-width: 800px) {
     p[class*=Cytat] {
-    margin-right: 120px;
+    margin-right: 140px;
     }
 }
 p[class*=Cytat] {
@@ -265,7 +265,7 @@ h1 {
 }
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 80%;
+        font-size: 100%;
         white-space: nowrap;
         margin-left: 0px;
     }
@@ -503,9 +503,10 @@ footer::selection {
 #Zrodla {
     font-size: small;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 20%;
+    margin-left: 10%;
     float:left;
     display: block;
     text-align: left;
     list-style-type: none;
+    word-wrap: break-word;
 }
