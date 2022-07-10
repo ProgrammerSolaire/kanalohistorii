@@ -43,7 +43,7 @@ body {
         box-sizing: border-box;
         background-color: #382102;
         opacity: 90%;
-        width: 60px;
+        width: 50px;
     }
 }
 .mobile_nav {
@@ -207,16 +207,16 @@ a.element_4:active {
 @media only screen and (max-height: 2732px) and (max-width: 2048px) {
     #Backbutton {
         position:fixed;
-        right: 20px;
-        bottom: 20px;
+        right: 10px;
+        bottom: 10px;
         z-index: 1;
     }
 }
 @media only screen and (max-height: 2248px) and (max-width: 1080px) {
     #Backbutton {
         position:fixed;
-        right: 10px;
-        bottom: 10px;
+        right: 20px;
+        bottom: 20px;
         z-index: 1;
     }
 }
@@ -237,9 +237,14 @@ a.element_4:active {
         margin-left: 60px;
     }
 }
-@media only screen and (max-width: 2048px) {
+@media only screen and (max-height: 2732px) and (max-width: 2048px) {
     p[class*=Cytat] {
     margin-right: 120px;
+    }
+}
+@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+    p[class*=Cytat] {
+    margin-right: 100px;
     }
 }
 p[class*=Cytat] {
@@ -253,14 +258,14 @@ h1 {
 }
 @media only screen and (max-height: 2732px) and (min-width: 2048px) {
     h1 {
-        font-size: 280%;
+        font-size: 200%;
         white-space: nowrap;
         margin-left: 0px;
     }
 }
 @media only screen and (max-height: 2248px) and (min-width: 1080px) {
     h1 {
-        font-size: 200%;
+        font-size: 100%;
         white-space: nowrap;
         margin-left: 0px;
     }
