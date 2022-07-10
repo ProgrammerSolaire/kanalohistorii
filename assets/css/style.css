@@ -239,12 +239,12 @@ a.element_4:active {
 }
 @media only screen and (max-width: 900px) {
     p[class*=Cytat] {
-    margin-right: 160px;
+    margin-right: 60px;
     }
 }
 @media only screen and (max-width: 800px) {
     p[class*=Cytat] {
-    margin-right: 140px;
+    margin-right: 40px;
     }
 }
 p[class*=Cytat] {
@@ -258,14 +258,14 @@ h1 {
 }
 @media only screen and (max-width: 900px) {
     h1 {
-        font-size: 100%;
+        font-size: 40px;
         white-space: nowrap;
         margin-left: 0px;
     }
 }
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 100%;
+        font-size: 30px;
         white-space: nowrap;
         margin-left: 0px;
     }
