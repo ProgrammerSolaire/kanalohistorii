@@ -256,14 +256,14 @@ p[class*=Cytat] {
 h1 {
     font-size: 400%;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     h1 {
         font-size: 100%;
         white-space: nowrap;
         margin-left: 0px;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
     h1 {
         font-size: 80%;
         white-space: nowrap;
@@ -344,14 +344,14 @@ h3{
     color: #fddd26;
     font-size: 30px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     #Opis_strony {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
     #Opis_strony {
         margin-left: 60px;
         margin-right: 50px;
@@ -375,14 +375,14 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     #Artykul_1 {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
     #Artykul_1 {
         margin-left: 60px;
         margin-right: 50px;
@@ -433,13 +433,13 @@ h6 {
     float: left;
     padding: 10px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     .Responsive {
         width: 100%;
         font-size: 70%;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Responsive {
         width: 100%;
         font-size: 60%;
@@ -462,13 +462,13 @@ h6 {
     width: 580px;
     height: 400px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     [class*=Obrazek] {
         width: 480px;
         height: 300px;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
     [class*=Obrazek] {
         width: 350px;
         height: 250px;
