@@ -22,7 +22,7 @@ body {
     opacity: 90%;
     width: 10%;
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     #Menu {
         position: fixed;
         top: 0;
@@ -31,10 +31,10 @@ body {
         box-sizing: border-box;
         background-color: #382102;
         opacity: 90%;
-        width: 80px;
+        width: 70px;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     #Menu {
         position: fixed;
         top: 0;
@@ -43,26 +43,26 @@ body {
         box-sizing: border-box;
         background-color: #382102;
         opacity: 90%;
-        width: 50px;
+        width: 60px;
     }
 }
 .mobile_nav {
     display: none;
     list-style-type: none;
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     .mobile_nav {
         display: inline-block;
         position: fixed;
-        top: 2px;
+        top: 20px;
         left: 1px;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     .mobile_nav {
         display: inline-block;
         position: fixed;
-        top: 1px;
+        top: 10px;
         left: 0px;
     }
 }
@@ -90,12 +90,12 @@ a.mobile_element_4 {
     list-style-type: none;
     padding: 0%;
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     .nav {
         display: none;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     .nav{
         display: none;
     }
@@ -204,7 +204,7 @@ a.element_4:active {
 #Backbutton:hover {
     cursor: pointer;
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     #Backbutton {
         position:fixed;
         right: 10px;
@@ -212,10 +212,10 @@ a.element_4:active {
         z-index: 1;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     #Backbutton {
         position:fixed;
-        right: 20px;
+        right: 30px;
         bottom: 20px;
         z-index: 1;
     }
@@ -227,24 +227,24 @@ a.element_4:active {
     padding-bottom: 5px;
     width: 80%;
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     #Start {
         margin-left: 80px;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     #Start {
         margin-left: 60px;
     }
 }
-@media only screen and (max-height: 2732px) and (max-width: 2048px) {
+@media only screen and (max-width: 900px) {
     p[class*=Cytat] {
-    margin-right: 120px;
+    margin-right: 140px;
     }
 }
-@media only screen and (max-height: 2248px) and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
     p[class*=Cytat] {
-    margin-right: 100px;
+    margin-right: 120px;
     }
 }
 p[class*=Cytat] {
@@ -256,16 +256,16 @@ p[class*=Cytat] {
 h1 {
     font-size: 400%;
 }
-@media only screen and (max-height: 2732px) and (min-width: 2048px) {
+@media only screen and (min-width: 900px) {
     h1 {
-        font-size: 200%;
+        font-size: 100%;
         white-space: nowrap;
         margin-left: 0px;
     }
 }
-@media only screen and (max-height: 2248px) and (min-width: 1080px) {
+@media only screen and (min-width: 800px) {
     h1 {
-        font-size: 100%;
+        font-size: 80%;
         white-space: nowrap;
         margin-left: 0px;
     }
@@ -344,14 +344,14 @@ h3{
     color: #fddd26;
     font-size: 30px;
 }
-@media only screen and (max-height: 2732px) and (min-width: 2048px) {
+@media only screen and (min-width: 900px) {
     #Opis_strony {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (max-height: 2248px) and (min-width: 1080px) {
+@media only screen and (min-width: 800px) {
     #Opis_strony {
         margin-left: 60px;
         margin-right: 50px;
@@ -375,14 +375,14 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
 }
-@media only screen and (max-height: 2732px) and (min-width: 2048px) {
+@media only screen and (min-width: 900px) {
     #Artykul_1 {
         margin-left: 80px;
         margin-right: 70px;
         text-align: justify;
     }
 }
-@media only screen and (max-height: 2248px) and (min-width: 1080px) {
+@media only screen and (min-width: 800px) {
     #Artykul_1 {
         margin-left: 60px;
         margin-right: 50px;
@@ -433,13 +433,13 @@ h6 {
     float: left;
     padding: 10px;
 }
-@media only screen and (max-height: 2732px) and (min-width: 2048px) {
+@media only screen and (min-width: 900px) {
     .Responsive {
         width: 100%;
         font-size: 70%;
     }
 }
-@media only screen and (max-height: 2248px) and (min-width: 1080px) {
+@media only screen and (min-width: 800px) {
     .Responsive {
         width: 100%;
         font-size: 60%;
@@ -461,6 +461,18 @@ h6 {
 [class*=Obrazek] {
     width: 580px;
     height: 400px;
+}
+@media only screen and (min-width: 900px) {
+    [class*=Obrazek] {
+        width: 480px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    [class*=Obrazek] {
+        width: 350px;
+        height: 250px;
+    }
 }
 [class*=Opis] {
     text-align: center;
